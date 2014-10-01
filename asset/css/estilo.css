@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'WebFont';
+    src: url('../font/champagnelimousines-webfont.eot');
+    src: url('../font/champagnelimousines-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/champagnelimousines-webfont.woff') format('woff'),
+         url('../font/champagnelimousines-webfont.ttf') format('truetype'),
+         url('../font/champagnelimousines-webfont.svg#champagne__limousinesregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+body{
+	font-family: 'WebFont';
+}
+.hide{
+	display: none;
+}
+#cuadrox{
+	position: absolute;
+	top:0px;
+	left: 50%;
+	width: 800px;
+	margin-left: -400px;
+}
+.cuadroIzq{
+top: 30px;
+left: -20px;
+	background: url('../images/img_cuadro01.png') no-repeat;
+}
+.cuadroDer{
+	top: 30px;
+	right: -75px;
+	background: url('../images/img_cuadro02.png') no-repeat;
+}
+.cuadross{
+position: absolute;
+width: 173px;
+height: 137px;
+}
+.copy .entrar{
+	position: absolute;
+width: 368px;
+height: 118px;
+background: url('../images/btn_entrar.png') no-repeat;
+cursor: pointer;
+top: 50%;
+left: 50%;
+margin-top: 163px;
+margin-left: -183px;
+}
+.home .copy{
+	position: absolute;
+width: 367px;
+height: 356px;
+top: -264px;
+left: 190px;
+margin-top: -475px;
+margin-left: 10px;
+background: url('../images/copy-home.png') no-repeat
+
+}
+.home .lupaa{
+	position: absolute;
+width: 168px;
+height: 230px;
+top: 50%;
+left: 50%;
+margin-top: 30px;
+margin-left: 130px;
+background: url('../images/img_lupita.png') no-repeat ;
+}
+.home .amiba1{
+	position: absolute;
+width: 137px;
+height: 127px;
+top: 50%;
+left: 50%;
+margin-top: 160px;
+margin-left: -310px;
+background: url('../images/img_amiba.png') no-repeat;
+}
+.home .amiba2{
+	position: absolute;
+width: 149px;
+height: 261px;
+top: 50%;
+left: 50%;
+margin-top: 140px;
+margin-left: -90px;
+background: url('../images/img_bicholo.png') no-repeat 
+}
+article{
+	position: absolute;
+	width: 800px;
+	height: 700px;
+	margin-left: -400px;
+	left: 50%;
+}
+section{
+	position: absolute;
+	padding: 0px;
+	left: 50%;
+	margin-left: -400px;
+	width: 800px;
+	height: 100%;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	bottom: 10px;
+}
+footer p{
+	text-align:right;
+}
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+hr{
+	width: 75%;
+}
+.wrapper{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 50%;
+	margin-left:-50%;
+	padding: 0px;
+	min-height: 800px;
+	background: url('../images/img_Fondo_Vermox.jpg') no-repeat top center;
+}
+.logo{
+	position: absolute;
+	top:10px;
+	left: -20px;
+	width: 160px;
+	height: 50px;
+	background: url('../images/logo-vermox.png') no-repeat;	
+}
+.centrar{
+
+	position: absolute;
+}
+.cajaCopy{
+width: 510px;
+height: 330px;
+top:0px;
+left:140px;
+	background: url('../images/copy-cajas.png') no-repeat;
+}
+.cajaPelota{
+width: 210px;
+height: 170px;
+left: -82px;
+top: 456px;
+	background: url('../images/img_pelota.png') no-repeat;
+}.cajaLupita{
+width: 170px;
+height: 240px;
+left: 666px;
+top: 359px;
+	background: url('../images/img_lupita.png') no-repeat;
+	z-index: 10;
+}.cajaAmiba{
+width: 398px;
+height: 325px;
+left: -10px;
+top: 410px;
+	background: url('../images/img_vermox_tabletas.png') no-repeat;
+}
+.cajaAmiba:hover{
+	background-position: 0px -325px;
+}
+.cajaPlatano{
+width: 368px;
+height: 425px;
+left: 235px;
+top: 335px;
+
+	background: url('../images/img_vermox_platano.png') no-repeat;
+}
+.cajaPlatano:hover{background-position: 0px -425px;}
+
+.cajaCereza{
+width: 366px;
+height: 425px;
+left: 408px;
+top: 310px;
+	background: url('../images/img_vermox_cereza.png') no-repeat;
+}
+.cajaCereza:hover{
+	background-position: 0px -425px;
+}
+.copy{
+	position: absolute;
+	width: 100%;
+height: 226px;
+top: 71px;
+	background: url('../images/copy-amiba.png') no-repeat top center;
+}
+.pizarron{
+	position: absolute;
+width: 250px;
+height: 336px;
+left: 48px;
+top: 261px;
+	background: url('../images/pizarron.png') no-repeat;
+}
+.postit{
+	position: absolute;
+width: 178px;
+height: 196px;
+left: 45px;
+top: 13px;
+	background: url('../images/papel-tachuela-azul.png') top center no-repeat;
+}
+.imagen{
+	position: absolute;
+width: 150px;
+height: 116px;
+left: 68px;
+top: 189px;
+	background: url('../images/cereza-tachuela-rojo.png') no-repeat;
+}
+.lupita{
+	position: absolute;
+width: 160px;
+height: 205px;
+left: 225px;
+top: 430px;
+	background: url('../images/img_lupitita.png') no-repeat;
+	z-index: 1;
+}
+.empaque{
+	position: absolute;
+width: 313px;
+height: 285px;
+left: 335px;
+top: 321px;
+	background: url('../images/producto_platano.png') no-repeat bottom;
+}
+.imagenContenido{
+	position: absolute;
+	width: 95px;
+	height: 110px;
+left: 570px;
+top: 400px;
+}
+.inff{
+	z-index: 10;
+}
+.lombris {
+    position: absolute;
+    width: 152px;
+    height: 222px;
+    background: url('../images/lombriz.png') no-repeat;
+    top: 330px;
+    left: 360px;
+   	display: none;
+}
+.pulpo{
+	position:absolute;
+	background:url('../images/tulio.png') no-repeat;
+	width:180px;
+	height: 185px;
+top: 300px;
+left: 120px;	
+display: none;
+	}
+.imagenPresentacion{
+	position: absolute;
+	width: 95px;
+	height: 110px;
+	left: 570px;
+	top: 280px;
+
+}
+.contenido{
+	left: 656px;
+	top: 400px;
+}
+.presentacion{
+	left: 655px;
+	top: 280px;
+}
+.inf{
+	position: absolute;
+	text-align: center;
+	width: 213px;
+	height: 112px;
+	background: url('../images/texto-ararillo-azul.png') no-repeat top center;
+	display: none;
+	z-index: 15;
+}
+.atras{
+	position: absolute;	
+	top:530px;
+	left: 0px;
+	width: 50px;
+	height: 80px;
+	background: url('../images/img_flechaizq.png') no-repeat;
+}
+.adelante{
+	position: absolute;	
+	top:530px;
+	right: 0px;	
+	width: 50px;
+	height: 80px;
+	background: url('../images/img_flechader.png') no-repeat;
+}
+.click{
+	cursor: pointer;
+}
+.salida .cajaPelota{
+	width: 610px;
+height: 330px;
+left: 358px;
+top: 296px;
+background: url('../images/img_bicicleta.png') no-repeat
+
+}
+.salida .cajaLupita{
+	width: 170px;
+height: 240px;
+left: -14px;
+top: 419px;
+background: url('../images/img_lupita.png') no-repeat;
+z-index: 5;
+
+}
